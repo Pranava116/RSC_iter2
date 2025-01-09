@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import '../index.css'
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -13,9 +13,9 @@ const Navbar = () => {
         <div className="text-white text-xl font-semibold">
             <img src="/Logo.png" className="object-contain h-[70px] w-[70px]" />
         </div>
-        <div className="hidden md:flex space-x-10 font-mono">
-          <a href="/" className="navLinks">Home</a>
-          <a href="#" className="navLinks">Step Up</a>
+        <div className=" hidden md:flex space-x-10 font-mono">
+          <a href="/" className=" navLinks">Home</a>
+          <a href="#" className=" navLinks">Step Up</a>
           <a href="/agones" className="navLinks">Agones</a>
           <a href="#" className="navLinks">About Us</a>
         </div>
