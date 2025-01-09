@@ -8,7 +8,7 @@ function LandingPage() {
     <div>
       <Navbar/>
       <div className='flex justify-between h-[500px] w-full mt-[100px]'>
-        <div >
+        <div className='ml-[50px]'>
         <LandingText/>
         </div>
        <div>
